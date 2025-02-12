@@ -1,15 +1,31 @@
 <html>
     <head>
         <title>Lullaby Song</title>
+
+        <!--INTERNAL-->
+            <script>
+            </script>
     </head>
     <body style="text-align: center;">
         <h1>Wheels on the Bus</h1>
         <img src=baby..jpg  alt="baby watching" />
         <div>
-            <p>The wheels on the bus go 'round and 'round</p>
-            <p>'Round and 'round, 'round and 'round</p>
-            <p>The wheels on the bus go 'round and 'round</p>
-            <p>All through the town</p>
+            <p 
+                id="demo"
+                onclick="document.getElementById('demo').innerHTML='BROOM BROOM BROOM'">The wheels on the bus go 'round and 'round
+            </p>
+
+            <p
+                id="color"
+                ondblclick="document.getElementById('color').style.backgroundColor='Pink'">'Round and 'round, 'round and 'round</p>
+
+            <p 
+                id="font"
+                onmouseover="document.getElementById('font').style.fontSize='60px'">The wheels on the bus go 'round and 'round</p>
+
+            <p
+                id="blue"
+                onmouseout="document.getElementById('blue').style.color='blue'">All through the town</p>
         </div>
 
         <div>
